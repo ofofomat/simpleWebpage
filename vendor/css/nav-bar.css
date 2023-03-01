@@ -1,8 +1,11 @@
+@import url('hero-section.css');
+
 :root {
   --darkgray: #212329;
   --brightred: #f9423d;
   --white: #ffffff;
   --lightred: #f9433dcc;
+  --lightblue: #337af1;
 }
 
 * {
