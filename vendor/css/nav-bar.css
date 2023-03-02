@@ -1,8 +1,10 @@
 @import url('hero-section.css');
 @import url('modal.css');
+@import url('gallery.css');
 
 :root {
   --darkgray: #212329;
+  --midgray: #2a2c31;
   --lightgray: #b1b1b1;
   --brightred: #f9423d;
   --white: #ffffff;
