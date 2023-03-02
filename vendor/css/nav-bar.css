@@ -1,7 +1,9 @@
 @import url('hero-section.css');
+@import url('modal.css');
 
 :root {
   --darkgray: #212329;
+  --lightgray: #b1b1b1;
   --brightred: #f9423d;
   --white: #ffffff;
   --lightred: #f9433dcc;
@@ -16,6 +18,8 @@
 }
 
 .nav-container {
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: var(--darkgray);
 }
