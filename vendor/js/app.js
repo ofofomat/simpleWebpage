@@ -130,13 +130,13 @@ galleryImages.forEach(function (image, index) {
       newNextBtn.innerHTML = '<i class="fas fa-chevron-right next"></i>';
       container.appendChild(newNextBtn);
       newNextBtn.setAttribute('class', 'img-btn-next');
-      newNextBtn.setAttribute('onclick', 'change-img(1)');
+      newNextBtn.setAttribute('onclick', 'changeImg(1)');
 
       let prevNextBtn = document.createElement('a');
       prevNextBtn.innerHTML = '<i class="fas fa-chevron-left next"></i>';
       container.appendChild(prevNextBtn);
       prevNextBtn.setAttribute('class', 'img-btn-prev');
-      prevNextBtn.setAttribute('onclick', 'change-img(0)');
+      prevNextBtn.setAttribute('onclick', 'changeImg(0)');
     };
   };
 });
